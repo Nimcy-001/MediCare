@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    overflow: hidden;
+}
+section
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom right,#4fa4f4,#add8f5);
+}
+.blob3
+{
+    position: fixed;
+    display: flex;
+    justify-content: left;
+    align-items:left;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 1550px;
+    height: 1150px;
+}
+.blob4
+{
+    position: fixed;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: -250px;
+    height: 1050px;
+}
+
+.container2
+{
+    position: relative;
+    width: 400px;
+    min-height: 400px;
+    min-width: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.form2
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+}
+.form2 h2 /* login form heading */
+{
+    position: relative;
+    color: #041f33; 
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 40px; 
+}
+.form2 h2::before /* underline */
+{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 50px;
+    height: 4px;
+    background: #041f33;
+}
+.form2 .inputBox2 /* box format */
+{
+    width: 100%;
+    margin-top: 20px;
+}
+.form2 .inputBox2 input
+{
+    width: 100%;
+    background: rgba(255, 225, 255, 0.2);
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 35px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: black;
+    box-shadow: 0 5px 15px rgba(68, 127, 185, 0.92);
+}
+.form2 .inputBox2 input::placeholder
+{
+    color:rgb(83, 88, 92);
+}
+.form2 .inputBox2 input[type="submit"]
+{
+    background: rgb(40, 125, 216);
+    color:white;
+    max-width: 1000px;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
